@@ -1,7 +1,10 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
-    return `# ${data.title}
+function generateMarkdown ({ title, description, usage, license, contribution, test, username, email }) {
+
+  return `# ${data.title}
       
+    ![GitHub](https://img.shields.io/github/license/${username}/${title})
+
     ${description}
     
     ${instalation}
@@ -14,11 +17,13 @@ function generateMarkdown(data) {
     
     ${test}
     
-    ${username}
-    
-    ${contact}
-  `;
-  }
+    Please address questions to ${ username}.
   
-  module.exports = generateMarkdown;
+    [Link to Profile](https://github.com/${ username})
   
+    [E-mail](${ email})
+
+    ${license} `;
+}
+
+module.exports = generateMarkdown;

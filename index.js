@@ -5,7 +5,7 @@ const fs = require('fs');
 const generate = require("./generateMarkdown");
 
 // array of questions for user
-const questions = ([
+inquirer.prompt([
     {
         type: "input",
         message:  "What is the name of your project repo?",
@@ -61,29 +61,24 @@ const questions = ([
         name: "Contact"
     }
    
-]);
+])
 
-inquirer.prompt(questions
-    
-    ).then(data => {
+.then(data => {
 
     console.log(data);
     return data;
  
 })
+
 // function to write README file
 function writeToFile(fileName, data) {
-    
+    /*
     let markDown = generate(data);
 
-    fs.writeFile("README", generate(data, gitinfo), (err) => {
-        if (err) {
-            throw err
-        };
-        console.log("success");
-
-    });
-}
+    fs.writeFile(`./${filename}`, markDown);
+    */
+       
+    };
 
 // function to initialize program
 function init() {
