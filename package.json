@@ -1,0 +1,26 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "readme demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Robeil/readme-generator1.git"
+  },
+  "keywords": [
+    "keen1"
+  ],
+  "author": "Robeil Aregawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robeil/readme-generator1/issues"
+  },
+  "homepage": "https://github.com/Robeil/readme-generator1#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.3.3"
+  }
+}
