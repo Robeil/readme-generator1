@@ -1,11 +1,15 @@
+const fs = require('fs');
+
 const inquirer = require("inquirer");
 
-const fs = require('fs');
+//const axios = require('axios');
 
 const generate = require("./generateMarkdown");
 
+//const writefile = require("writefile");
+ 
 // array of questions for user
-inquirer.prompt([
+questions = [
     {
         type: "input",
         message:  "What is the name of your project repo?",
@@ -61,29 +65,33 @@ inquirer.prompt([
         name: "Contact"
     }
    
-])
+]
 
-.then(data => {
+inquirer.prompt(questions
+    
+    ).then(data => {
+  
+        console.log(data);
+        return data;
+     
+    })
+    
+    
+  
+  // function to write README file
+  function writeToFile(fileName, data) {
 
-    console.log(data);
-    return data;
- 
-})
+  let markdown = generate(data);
+  fs.writeFile(`README.md`, markdown);
+  
+  }
 
 // function to write README file
-function writeToFile(fileName, data) {
-    /*
-    let markDown = generate(data);
 
-    fs.writeFile(`./${filename}`, markDown);
-    */
-       
-    };
 
 // function to initialize program
 function init() {
-
+ 
 }
-
 // function call to initialize program
 init();

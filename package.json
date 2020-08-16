@@ -21,6 +21,8 @@
   "homepage": "https://github.com/Robeil/readme-generator1#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "save": "^2.4.0",
+    "writefile": "^0.2.8"
   }
 }

@@ -1,29 +1,60 @@
 // function to generate markdown for README
-function generateMarkdown ({ title, description, usage, license, contribution, test, username, email }) {
+function generateMarkdown ({title, description, installation, usage, license, contribution, tests, username, emai }) {
 
-  return `# ${data.title}
-      
-    ![GitHub](https://img.shields.io/github/license/${username}/${title})
-
-    ${description}
-    
-    ${instalation}
-    
-    ${usage}
-    
-    ${license}
-    
-    ${contribution}
-    
-    ${test}
-    
-    Please address questions to ${ username}.
+  return `# ${title}
+  ![GitHub](https://img.shields.io/github/license/${username}/${ title })
   
-    [Link to Profile](https://github.com/${ username})
-  
-    [E-mail](${ email})
+  ## Description:
 
-    ${license} `;
+  ${ description }
+  
+  
+  
+  ## Table of Contents
+  
+  [TOC]
+  
+  
+  
+  ## Installation
+  
+  ${ installation }
+  
+  
+  
+  ## Usage
+  
+  ${ usage }
+  
+  
+  
+  ## Contribution Guidelines
+  
+  ${ contribution }
+  
+  
+  
+  ## Tests
+  
+  ${ tests }
+  
+  
+  
+  ## Questions
+  
+  Please address questions to ${ username }.
+  
+  [Link to Profile](https://github.com/${ username })
+  
+  [E-mail](${ email })
+  
+  
+  
+  ## License
+  
+  ${ license }
+  
+   `;
 }
 
 module.exports = generateMarkdown;
