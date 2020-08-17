@@ -1,6 +1,6 @@
-# ryjtcguyjk
+# readme-generator
 
- tfghvbn/ryjtcguyjk)
+ @Robeil/readme-generator)
 
   # Description:
 
@@ -12,7 +12,7 @@
   
   # Usage
   
-  yufhjvbm
+  please type npm init in your terminal and answer the questions
 
   # licence
 
@@ -20,21 +20,21 @@
   
   # Contribution Guidelines
   
-  uyfkghv
+  anyone can add or edit the code it is free acces to everybody
   
   # Tests
   
-  iutghbkjn
+  alll provided
   
   # Questions
   
-  Please ask questions to tfghvbn.
+  Please ask questions to @Robeil.
   
-  [Link to Profile](https://github.com/tfghvbn)
+  [Link to Profile](https://github.com/@Robeil)
 
   # E-mail
 
-  fugvhjbn
+  silukeen1@gmail.com
 
 
    
