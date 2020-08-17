@@ -1,42 +1,45 @@
-# readme-generator
+# readme-generator1
 
-[badges](https://img.shields.io/github/license/${username}/${licence})
-
+  ![GitHub](https://img.shields.io/github/license/@Robeil/readme-generator1)
   ## Description:
-  This 
+  undefined
   
   
   
 # Table of Contents
     
-[Installation](#installation)
+[Installation](#Installation)
 
 [Usage](#Usage)
  
-[Contribution](#contribution)
+[Contributing](#Contributing)
  
-[tests](#tests)
+[Tests](#Tests)
  
-[questions](#questions)
+[Questions](#Questions)
  
-[license](#license)
+[License](#License)
  
-
-# installation
+  
+  
+# Installation
   
   undefined
+  
+  
   
 # Usage
   
-  run npm init and answer the questions
+  by running the npm init and asnwering the questions
   
-  # license
+  # License
   
   undefined
   
-  # tests
   
-  you can add 
+  # Tests
+  
+  you can add anythng
   
   # Questions
   
