@@ -1,59 +1,45 @@
 // function to generate markdown for README
-function generateMarkdown ({title, description, installation, usage, license, contribution, tests, username, emai }) {
+function generateMarkdown ({title, description, installation, usage, license, contribution, tests, username, Email }) {
 
   return `# ${title}
+
   ![GitHub](https://img.shields.io/github/license/${username}/${ title })
-  
-  ## Description:
+
+  # Description:
 
   ${ description }
   
-  
-  
-  ## Table of Contents
-  
-  [TOC]
-  
-  
-  
-  ## Installation
+  # Installation
   
   ${ installation }
   
-  
-  
-  ## Usage
+  # Usage
   
   ${ usage }
+
+  # licence
+
+  ${ license }
   
-  
-  
-  ## Contribution Guidelines
+  # Contribution Guidelines
   
   ${ contribution }
   
-  
-  
-  ## Tests
+  # Tests
   
   ${ tests }
   
+  # Questions
   
-  
-  ## Questions
-  
-  Please address questions to ${ username }.
+  Please ask questions to ${ username }.
   
   [Link to Profile](https://github.com/${ username })
-  
-  [E-mail](${ email })
-  
-  
-  
-  ## License
-  
-  ${ license }
-  
+
+  # E-mail
+
+  ${Email}
+
+
    `;
 }
 
