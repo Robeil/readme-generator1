@@ -71,8 +71,6 @@ questions = [
 
 ]
 
-
-
 inquirer.prompt(questions
 
 ).then(data => {
@@ -87,14 +85,14 @@ inquirer.prompt(questions
 // function to write README file
 function writeToFile(fileName, data) {
 
-    let markdown = generate(data);
+    let genarator = generate(data);
 
-    fs.writeFile('README.md', markdown, (err, data) => {
+    fs.writeFile('README.md', genarator, (err, data) => {
 
         if (err) {
             console.log(err.message);
         } else {
-            console.log('README.md', markdown);
+            console.log('README.md', genarator);
         }
     });
 

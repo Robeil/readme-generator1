@@ -3,7 +3,7 @@ function generateMarkdown ({title, description, installation, usage, license, co
 
   return `# ${title}
 
-  ![GitHub](https://img.shields.io/github/license/${username}/${ title })
+ ${username}/${ title })
 
   # Description:
 
