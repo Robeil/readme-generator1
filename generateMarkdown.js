@@ -48,7 +48,7 @@ Usage](#Usage)
   
   Please ask questions to ${ username}.
   
-  [Link to Profile](https://github.com/${ username})
+  ${ username})
 
   # E-mail
 
